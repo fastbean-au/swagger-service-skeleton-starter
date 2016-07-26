@@ -1,5 +1,6 @@
 'use strict';
 
+const config = require('config').get('server');
 const skeleton = require('swagger-service-skeleton');
 
 const instanceGenerator = () => skeleton({
@@ -8,14 +9,14 @@ const instanceGenerator = () => skeleton({
                     rootDirectory: __dirname },
   },
   codegen: {
+    temporaryDirectory: './dist/codegen',
     templateSettings: {
       implementationPath: '../../../src/controllers',
     },
-    temporaryDirectory: './dist/codegen',
   },
   service: {
-    swagger: './src/contracts/prosemino-api.yaml',
-    listenPort: 10010,
+    swagger: './src/contracts/swagger.yaml',
+    listenPort: config.listenPort,
   },
 });
 

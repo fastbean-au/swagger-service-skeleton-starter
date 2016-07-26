@@ -1,0 +1,5 @@
+{
+  "server": {
+      "listenPort": 10010
+  }
+}
