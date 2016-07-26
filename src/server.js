@@ -1,5 +1,6 @@
 'use strict';
 
+const config = require('config').get('server');
 const skeleton = require('swagger-service-skeleton');
 
 const instanceGenerator = () => skeleton({
@@ -31,7 +32,7 @@ const instanceGenerator = () => skeleton({
        directory.
     */
     swagger: './src/contracts/swagger.yaml',
-    listenPort: 10010,
+    listenPort: config.listenPort,
   },
 });
 
