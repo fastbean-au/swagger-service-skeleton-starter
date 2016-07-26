@@ -1,0 +1,34 @@
+{
+  "name": "replace-this",
+  "version": "0.0.1",
+  "description": "A minimum basic starting point for a swagger-service-skeleton based application",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "swagger-service-skeleton": "^1.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.11.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.2.2",
+    "grunt": "^1.0.1",
+    "grunt-eslint": "^19.0.0",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
