@@ -20,14 +20,14 @@
   "homepage": "",
   "dependencies": {
     "config": "^1.21.0",
-    "swagger-service-skeleton": "^1.1.2"
+    "swagger-service-skeleton": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.3.0",
+    "eslint": "^3.4.0",
     "eslint-config-airbnb": "^10.0.1",
-    "eslint-plugin-import": "^1.13.0",
-    "eslint-plugin-jsx-a11y": "^2.1.0",
-    "eslint-plugin-react": "^6.0.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.0",
+    "eslint-plugin-react": "^6.1.2",
     "grunt": "^1.0.1",
     "grunt-eslint": "^19.0.0",
     "load-grunt-tasks": "^3.5.2"
