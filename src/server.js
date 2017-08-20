@@ -9,8 +9,9 @@ const instanceGenerator = () => skeleton({
        This path is relative to *this* file, which is in the ./src directory, thus it is:
        ./src/services/*.js
     */
-    autoRegister: { pattern: './services/*.js',
-                    rootDirectory: __dirname },
+    autoRegister: {
+      pattern: './services/*.js',
+      rootDirectory: __dirname },
   },
   codegen: {
     /*
@@ -28,7 +29,7 @@ const instanceGenerator = () => skeleton({
   },
   service: {
     /*
-       This is the path to your YAML file. It is relative to the application (repository) root 
+       This is the path to your YAML file. It is relative to the application (repository) root
        directory.
     */
     swagger: './src/contracts/swagger.yaml',
